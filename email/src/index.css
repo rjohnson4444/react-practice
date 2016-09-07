@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.email-body {
+  width: 800px;
+  height: 60px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  position: fixed;
+  top: 35%;
+  left: 10%;
+}
+
+.email-checkbox {
+  position: absolute;
+  top: 35%;
+}
+
+.sender {
+  position: relative;
+  display: inline-block;
+  top: 15%;
+  left: 10%;
+  padding: 8px;
+}
+
+.subject {
+  position: relative;
+  display: inline-block;
+  top: 15%;
+  left: 30%;
+}
+
+.date {
+  position: relative;
+  display: inline-block;
+  top: 15%;
+  left: 60%
+}
+
+.message {
+  position: relative;
+  left: 11%;
+  color: grey;
+}
+
+.thumbtack {
+  height: 18px;
+  width: 12px;
+  position: absolute;
+  top: 38%;
+  left: 6%;
+  color: grey;
+}
