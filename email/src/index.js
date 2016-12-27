@@ -81,7 +81,7 @@ const Thumbtack = React.createClass({
 
 const email = {
   sender: 'Ryan Johnson',
-  subject: 'How Have You Been?',
+  subject: 'Hey, just wanted to say Hi!',
   date: 'Jun 23',
   message: "I wanted to touch basis with you to see how you've been doing?",
 };

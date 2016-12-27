@@ -9,21 +9,12 @@ const NavContainer = React.createClass({
         <NavItem url='/' icon='fa fa-home icon'>Home</NavItem>
         <NavItem url='/about' icon='fa fa-bars icon'>About</NavItem>
         <NavItem url='/contact' icon='fa fa-envelope icon'>Contact</NavItem>
-        <a href='/'>Contacts</a>
       </Nav>
     );
   }
 })
 
 const Nav = React.createClass({
-  propTypes: {
-    children: React.PropTypes.arrayOf(
-      React.PropTypes.oneOfType([
-        React.PropTypes.element
-      ])
-    )
-  },
-
   render() {
     let items = React.Children.toArray(this.props.children);
     for(let i = items.length - 1; i >= 1; i--) {
